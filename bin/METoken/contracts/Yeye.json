@@ -1,0 +1,756 @@
+{
+    "contractName": "Yeye",
+    "abi": [
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "string",
+                    "name": "msg",
+                    "type": "string"
+                }
+            ],
+            "name": "Log",
+            "type": "event"
+        },
+        {
+            "inputs": [],
+            "name": "hip",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "pop",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "yeye",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"msg\",\"type\":\"string\"}],\"name\":\"Log\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"hip\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pop\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"yeye\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jiang/Myworker/solidity/METoken/contracts/Yeye.sol\":\"Yeye\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jiang/Myworker/solidity/METoken/contracts/Yeye.sol\":{\"keccak256\":\"0x692620aab29a575ed4da748354fa222f42047f165395b1c9ce4fc3d71a69de71\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://079a40625d53d9867f9e371c57aeebf3e5d6737855f2458a96c64c2d181d743a\",\"dweb:/ipfs/QmXCY5oE3W3jwwpqKjHNtrPnmMxybUVQ2ks1phm4xQqnZi\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060ce8061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630ca21e9c146041578063370ea142146041578063a4ece52c146041575b600080fd5b60476049565b005b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab604051608e906020808252600490820152635965796560e01b604082015260600190565b60405180910390a156fea264697066735822122024b82dfe4ffc0bbfea291fb69ecf0681940d142c8d691ec26a2c45cb8c22810064736f6c634300080d0033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630ca21e9c146041578063370ea142146041578063a4ece52c146041575b600080fd5b60476049565b005b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab604051608e906020808252600490820152635965796560e01b604082015260600190565b60405180910390a156fea264697066735822122024b82dfe4ffc0bbfea291fb69ecf0681940d142c8d691ec26a2c45cb8c22810064736f6c634300080d0033",
+    "sourceMap": "61:231:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "61:231:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;225:64;;;:::i;:::-;;;271:11;;;;;216:2:1;198:21;;;255:1;235:18;;;228:29;-1:-1:-1;;;288:2:1;273:18;;266:34;332:2;317:18;;14:327;271:11:0;;;;;;;;225:64::o",
+    "sourcePath": "/Users/jiang/Myworker/solidity/METoken/contracts/Yeye.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.13+commit.abaa5c0e"
+    },
+    "ast": {
+        "absolutePath": "/Users/jiang/Myworker/solidity/METoken/contracts/Yeye.sol",
+        "exportedSymbols": {
+            "Baba": [
+                59
+            ],
+            "Yeye": [
+                30
+            ]
+        },
+        "id": 60,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "36:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Yeye",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 30,
+                "linearizedBaseContracts": [
+                    30
+                ],
+                "name": "Yeye",
+                "nameLocation": "70:4:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "anonymous": false,
+                        "eventSelector": "cf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab",
+                        "id": 5,
+                        "name": "Log",
+                        "nameLocation": "85:3:0",
+                        "nodeType": "EventDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 3,
+                                    "indexed": false,
+                                    "mutability": "mutable",
+                                    "name": "msg",
+                                    "nameLocation": "96:3:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 5,
+                                    "src": "89:10:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 2,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "89:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "88:12:0"
+                        },
+                        "src": "79:22:0"
+                    },
+                    {
+                        "body": {
+                            "id": 12,
+                            "nodeType": "Block",
+                            "src": "134:27:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "59657965",
+                                                "id": 9,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "150:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                },
+                                                "value": "Yeye"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                }
+                                            ],
+                                            "id": 8,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "146:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 10,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "146:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 11,
+                                    "nodeType": "EmitStatement",
+                                    "src": "141:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "370ea142",
+                        "id": 13,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "hip",
+                        "nameLocation": "113:3:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 6,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "116:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 7,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "134:0:0"
+                        },
+                        "scope": 30,
+                        "src": "104:57:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 20,
+                            "nodeType": "Block",
+                            "src": "192:27:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "59657965",
+                                                "id": 17,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "208:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                },
+                                                "value": "Yeye"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                }
+                                            ],
+                                            "id": 16,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "204:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 18,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "204:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 19,
+                                    "nodeType": "EmitStatement",
+                                    "src": "199:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "a4ece52c",
+                        "id": 21,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "pop",
+                        "nameLocation": "173:3:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 14,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "176:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 15,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "192:0:0"
+                        },
+                        "scope": 30,
+                        "src": "164:55:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 28,
+                            "nodeType": "Block",
+                            "src": "256:33:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "59657965",
+                                                "id": 25,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "275:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                },
+                                                "value": "Yeye"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_552f12338174ce6152a5d9af9e1035e4f5e814d72e8245416f12a96744f11caa",
+                                                    "typeString": "literal_string \"Yeye\""
+                                                }
+                                            ],
+                                            "id": 24,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "271:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 26,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "271:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 27,
+                                    "nodeType": "EmitStatement",
+                                    "src": "266:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "0ca21e9c",
+                        "id": 29,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "yeye",
+                        "nameLocation": "234:4:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 22,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "238:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 23,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "256:0:0"
+                        },
+                        "scope": 30,
+                        "src": "225:64:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 60,
+                "src": "61:231:0",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 31,
+                            "name": "Yeye",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 30,
+                            "src": "311:4:0"
+                        },
+                        "id": 32,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "311:4:0"
+                    }
+                ],
+                "canonicalName": "Baba",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 59,
+                "linearizedBaseContracts": [
+                    59,
+                    30
+                ],
+                "name": "Baba",
+                "nameLocation": "303:4:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "baseFunctions": [
+                            13
+                        ],
+                        "body": {
+                            "id": 40,
+                            "nodeType": "Block",
+                            "src": "360:27:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "42616261",
+                                                "id": 37,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "376:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                },
+                                                "value": "Baba"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                }
+                                            ],
+                                            "id": 36,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "372:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 38,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "372:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 39,
+                                    "nodeType": "EmitStatement",
+                                    "src": "367:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "370ea142",
+                        "id": 41,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "hip",
+                        "nameLocation": "330:3:0",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": {
+                            "id": 34,
+                            "nodeType": "OverrideSpecifier",
+                            "overrides": [],
+                            "src": "351:8:0"
+                        },
+                        "parameters": {
+                            "id": 33,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "333:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 35,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "360:0:0"
+                        },
+                        "scope": 59,
+                        "src": "321:66:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    },
+                    {
+                        "baseFunctions": [
+                            21
+                        ],
+                        "body": {
+                            "id": 49,
+                            "nodeType": "Block",
+                            "src": "427:27:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "42616261",
+                                                "id": 46,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "443:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                },
+                                                "value": "Baba"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                }
+                                            ],
+                                            "id": 45,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "439:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 47,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "439:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 48,
+                                    "nodeType": "EmitStatement",
+                                    "src": "434:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "a4ece52c",
+                        "id": 50,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "pop",
+                        "nameLocation": "399:3:0",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": {
+                            "id": 43,
+                            "nodeType": "OverrideSpecifier",
+                            "overrides": [],
+                            "src": "419:8:0"
+                        },
+                        "parameters": {
+                            "id": 42,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "402:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 44,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "427:0:0"
+                        },
+                        "scope": 59,
+                        "src": "390:64:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 57,
+                            "nodeType": "Block",
+                            "src": "491:33:0",
+                            "statements": [
+                                {
+                                    "eventCall": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "42616261",
+                                                "id": 54,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "510:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                },
+                                                "value": "Baba"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_860eea7158d3e1f75d549e2d9b523582079ba1f73523ab92bd1d9cc4a280f619",
+                                                    "typeString": "literal_string \"Baba\""
+                                                }
+                                            ],
+                                            "id": 53,
+                                            "name": "Log",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "506:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory)"
+                                            }
+                                        },
+                                        "id": 55,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "506:11:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 56,
+                                    "nodeType": "EmitStatement",
+                                    "src": "501:16:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "fa030ef1",
+                        "id": 58,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "baba",
+                        "nameLocation": "469:4:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 51,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "473:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 52,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "491:0:0"
+                        },
+                        "scope": 59,
+                        "src": "460:64:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 60,
+                "src": "294:233:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "36:491:0"
+    },
+    "functionHashes": {
+        "hip()": "370ea142",
+        "pop()": "a4ece52c",
+        "yeye()": "0ca21e9c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "41200",
+            "executionCost": "93",
+            "totalCost": "41293"
+        },
+        "external": {
+            "hip()": "1773",
+            "pop()": "1795",
+            "yeye()": "1751"
+        }
+    }
+}

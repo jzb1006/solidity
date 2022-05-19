@@ -1,0 +1,752 @@
+{
+    "contracts": {
+        "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol": {
+            "Test4": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "initStudent1",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b5060738061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a8b63e6f14602d575b600080fd5b603b6001606c556064606d55565b00fea26469706673582212207a7794ce9072c68a2732daa0969e8f5b2b0961ce88c8a6121c1dbf78aacca9ca64736f6c634300080d0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x73 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA8B63E6F EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3B PUSH1 0x1 PUSH1 0x6C SSTORE PUSH1 0x64 PUSH1 0x6D SSTORE JUMP JUMPDEST STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH27 0x7794CE9072C68A2732DAA0969E8F5B2B0961CE88C8A6121C1DBF78 0xAA 0xCC 0xA9 0xCA PUSH5 0x736F6C6343 STOP ADDMOD 0xD STOP CALLER ",
+                        "sourceMap": "61:429:0:-:0;;;;;;;;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {
+                            "@initStudent1_46": {
+                                "entryPoint": null,
+                                "id": 46,
+                                "parameterSlots": 0,
+                                "returnSlots": 0
+                            }
+                        },
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063a8b63e6f14602d575b600080fd5b603b6001606c556064606d55565b00fea26469706673582212207a7794ce9072c68a2732daa0969e8f5b2b0961ce88c8a6121c1dbf78aacca9ca64736f6c634300080d0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA8B63E6F EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3B PUSH1 0x1 PUSH1 0x6C SSTORE PUSH1 0x64 PUSH1 0x6D SSTORE JUMP JUMPDEST STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH27 0x7794CE9072C68A2732DAA0969E8F5B2B0961CE88C8A6121C1DBF78 0xAA 0xCC 0xA9 0xCA PUSH5 0x736F6C6343 STOP ADDMOD 0xD STOP CALLER ",
+                        "sourceMap": "61:429:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;350:138;;450:1;419:7;436:15;478:3;461:14;:20;350:138;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "23000",
+                            "executionCost": "75",
+                            "totalCost": "23075"
+                        },
+                        "external": {
+                            "initStudent1()": "44322"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "initStudent1()": "a8b63e6f"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"initStudent1\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol\":\"Test4\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol\":{\"keccak256\":\"0x96bf9f04ac598e4cf8815d89a3fdf9161015848470efda808c82dde4ae39af1b\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://943b0c49c0ee05a4fd2ce6a0b7f1db225e5336330ba7b26f8748239b77359ff8\",\"dweb:/ipfs/QmYKuXvvWn6f9vPjoamZMFeYHKwGc33BNWMGn3NPqnTsQn\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 5,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "array1",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_array(t_uint256)8_storage"
+                        },
+                        {
+                            "astId": 9,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "array3",
+                            "offset": 0,
+                            "slot": "8",
+                            "type": "t_array(t_address)100_storage"
+                        },
+                        {
+                            "astId": 12,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "student",
+                            "offset": 0,
+                            "slot": "108",
+                            "type": "t_struct(Student)25_storage"
+                        },
+                        {
+                            "astId": 15,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "array4",
+                            "offset": 0,
+                            "slot": "110",
+                            "type": "t_array(t_uint256)dyn_storage"
+                        },
+                        {
+                            "astId": 18,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "array6",
+                            "offset": 0,
+                            "slot": "111",
+                            "type": "t_array(t_address)dyn_storage"
+                        },
+                        {
+                            "astId": 20,
+                            "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                            "label": "array7",
+                            "offset": 0,
+                            "slot": "112",
+                            "type": "t_bytes_storage"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        },
+                        "t_array(t_address)100_storage": {
+                            "base": "t_address",
+                            "encoding": "inplace",
+                            "label": "address[100]",
+                            "numberOfBytes": "3200"
+                        },
+                        "t_array(t_address)dyn_storage": {
+                            "base": "t_address",
+                            "encoding": "dynamic_array",
+                            "label": "address[]",
+                            "numberOfBytes": "32"
+                        },
+                        "t_array(t_uint256)8_storage": {
+                            "base": "t_uint256",
+                            "encoding": "inplace",
+                            "label": "uint256[8]",
+                            "numberOfBytes": "256"
+                        },
+                        "t_array(t_uint256)dyn_storage": {
+                            "base": "t_uint256",
+                            "encoding": "dynamic_array",
+                            "label": "uint256[]",
+                            "numberOfBytes": "32"
+                        },
+                        "t_bytes_storage": {
+                            "encoding": "bytes",
+                            "label": "bytes",
+                            "numberOfBytes": "32"
+                        },
+                        "t_struct(Student)25_storage": {
+                            "encoding": "inplace",
+                            "label": "struct Test4.Student",
+                            "members": [
+                                {
+                                    "astId": 22,
+                                    "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                                    "label": "id",
+                                    "offset": 0,
+                                    "slot": "0",
+                                    "type": "t_uint256"
+                                },
+                                {
+                                    "astId": 24,
+                                    "contract": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol:Test4",
+                                    "label": "score",
+                                    "offset": 0,
+                                    "slot": "1",
+                                    "type": "t_uint256"
+                                }
+                            ],
+                            "numberOfBytes": "64"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "sources": {
+        "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol": {
+            "ast": {
+                "absolutePath": "/Users/jiang/Myworker/solidity/METoken/contracts/Test4.sol",
+                "exportedSymbols": {
+                    "Test4": [
+                        47
+                    ]
+                },
+                "id": 48,
+                "license": "GPL-3.0",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "36:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "Test4",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 47,
+                        "linearizedBaseContracts": [
+                            47
+                        ],
+                        "name": "Test4",
+                        "nameLocation": "70:5:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 5,
+                                "mutability": "mutable",
+                                "name": "array1",
+                                "nameLocation": "115:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "107:14:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_uint256_$8_storage",
+                                    "typeString": "uint256[8]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 2,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "107:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 4,
+                                    "length": {
+                                        "hexValue": "38",
+                                        "id": 3,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "number",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "112:1:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_rational_8_by_1",
+                                            "typeString": "int_const 8"
+                                        },
+                                        "value": "8"
+                                    },
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "107:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_uint256_$8_storage_ptr",
+                                        "typeString": "uint256[8]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 9,
+                                "mutability": "mutable",
+                                "name": "array3",
+                                "nameLocation": "140:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "127:19:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_address_$100_storage",
+                                    "typeString": "address[100]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 6,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "127:7:0",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 8,
+                                    "length": {
+                                        "hexValue": "313030",
+                                        "id": 7,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "number",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "135:3:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_rational_100_by_1",
+                                            "typeString": "int_const 100"
+                                        },
+                                        "value": "100"
+                                    },
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "127:12:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_address_$100_storage_ptr",
+                                        "typeString": "address[100]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 12,
+                                "mutability": "mutable",
+                                "name": "student",
+                                "nameLocation": "177:7:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "169:15:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Student_$25_storage",
+                                    "typeString": "struct Test4.Student"
+                                },
+                                "typeName": {
+                                    "id": 11,
+                                    "nodeType": "UserDefinedTypeName",
+                                    "pathNode": {
+                                        "id": 10,
+                                        "name": "Student",
+                                        "nodeType": "IdentifierPath",
+                                        "referencedDeclaration": 25,
+                                        "src": "169:7:0"
+                                    },
+                                    "referencedDeclaration": 25,
+                                    "src": "169:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Student_$25_storage_ptr",
+                                        "typeString": "struct Test4.Student"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 15,
+                                "mutability": "mutable",
+                                "name": "array4",
+                                "nameLocation": "225:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "218:13:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                                    "typeString": "uint256[]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 13,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "218:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 14,
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "218:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                                        "typeString": "uint256[]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 18,
+                                "mutability": "mutable",
+                                "name": "array6",
+                                "nameLocation": "247:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "237:16:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                                    "typeString": "address[]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 16,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "237:7:0",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 17,
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "237:9:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                                        "typeString": "address[]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 20,
+                                "mutability": "mutable",
+                                "name": "array7",
+                                "nameLocation": "265:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 47,
+                                "src": "259:12:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_bytes_storage",
+                                    "typeString": "bytes"
+                                },
+                                "typeName": {
+                                    "id": 19,
+                                    "name": "bytes",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "259:5:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_bytes_storage_ptr",
+                                        "typeString": "bytes"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "canonicalName": "Test4.Student",
+                                "id": 25,
+                                "members": [
+                                    {
+                                        "constant": false,
+                                        "id": 22,
+                                        "mutability": "mutable",
+                                        "name": "id",
+                                        "nameLocation": "311:2:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 25,
+                                        "src": "303:10:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "typeName": {
+                                            "id": 21,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "303:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 24,
+                                        "mutability": "mutable",
+                                        "name": "score",
+                                        "nameLocation": "331:5:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 25,
+                                        "src": "323:13:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "typeName": {
+                                            "id": 23,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "323:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    }
+                                ],
+                                "name": "Student",
+                                "nameLocation": "286:7:0",
+                                "nodeType": "StructDefinition",
+                                "scope": 47,
+                                "src": "279:64:0",
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 45,
+                                    "nodeType": "Block",
+                                    "src": "382:106:0",
+                                    "statements": [
+                                        {
+                                            "assignments": [
+                                                30
+                                            ],
+                                            "declarations": [
+                                                {
+                                                    "constant": false,
+                                                    "id": 30,
+                                                    "mutability": "mutable",
+                                                    "name": "_student",
+                                                    "nameLocation": "408:8:0",
+                                                    "nodeType": "VariableDeclaration",
+                                                    "scope": 45,
+                                                    "src": "392:24:0",
+                                                    "stateVariable": false,
+                                                    "storageLocation": "storage",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_struct$_Student_$25_storage_ptr",
+                                                        "typeString": "struct Test4.Student"
+                                                    },
+                                                    "typeName": {
+                                                        "id": 29,
+                                                        "nodeType": "UserDefinedTypeName",
+                                                        "pathNode": {
+                                                            "id": 28,
+                                                            "name": "Student",
+                                                            "nodeType": "IdentifierPath",
+                                                            "referencedDeclaration": 25,
+                                                            "src": "392:7:0"
+                                                        },
+                                                        "referencedDeclaration": 25,
+                                                        "src": "392:7:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_struct$_Student_$25_storage_ptr",
+                                                            "typeString": "struct Test4.Student"
+                                                        }
+                                                    },
+                                                    "visibility": "internal"
+                                                }
+                                            ],
+                                            "id": 32,
+                                            "initialValue": {
+                                                "id": 31,
+                                                "name": "student",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 12,
+                                                "src": "419:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Student_$25_storage",
+                                                    "typeString": "struct Test4.Student storage ref"
+                                                }
+                                            },
+                                            "nodeType": "VariableDeclarationStatement",
+                                            "src": "392:34:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 37,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "expression": {
+                                                        "id": 33,
+                                                        "name": "_student",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 30,
+                                                        "src": "436:8:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_struct$_Student_$25_storage_ptr",
+                                                            "typeString": "struct Test4.Student storage pointer"
+                                                        }
+                                                    },
+                                                    "id": 35,
+                                                    "isConstant": false,
+                                                    "isLValue": true,
+                                                    "isPure": false,
+                                                    "lValueRequested": true,
+                                                    "memberName": "id",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": 22,
+                                                    "src": "436:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "hexValue": "31",
+                                                    "id": 36,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "number",
+                                                    "lValueRequested": false,
+                                                    "nodeType": "Literal",
+                                                    "src": "450:1:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_rational_1_by_1",
+                                                        "typeString": "int_const 1"
+                                                    },
+                                                    "value": "1"
+                                                },
+                                                "src": "436:15:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "id": 38,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "436:15:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 43,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "expression": {
+                                                        "id": 39,
+                                                        "name": "_student",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 30,
+                                                        "src": "461:8:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_struct$_Student_$25_storage_ptr",
+                                                            "typeString": "struct Test4.Student storage pointer"
+                                                        }
+                                                    },
+                                                    "id": 41,
+                                                    "isConstant": false,
+                                                    "isLValue": true,
+                                                    "isPure": false,
+                                                    "lValueRequested": true,
+                                                    "memberName": "score",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": 24,
+                                                    "src": "461:14:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "hexValue": "313030",
+                                                    "id": 42,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "number",
+                                                    "lValueRequested": false,
+                                                    "nodeType": "Literal",
+                                                    "src": "478:3:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_rational_100_by_1",
+                                                        "typeString": "int_const 100"
+                                                    },
+                                                    "value": "100"
+                                                },
+                                                "src": "461:20:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "id": 44,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "461:20:0"
+                                        }
+                                    ]
+                                },
+                                "functionSelector": "a8b63e6f",
+                                "id": 46,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "initStudent1",
+                                "nameLocation": "359:12:0",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 26,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "371:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 27,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "382:0:0"
+                                },
+                                "scope": 47,
+                                "src": "350:138:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "external"
+                            }
+                        ],
+                        "scope": 48,
+                        "src": "61:429:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "36:454:0"
+            },
+            "id": 0
+        }
+    }
+}

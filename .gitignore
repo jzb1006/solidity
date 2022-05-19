@@ -1,3 +1,5 @@
 /METoken/node_modules/
 /.idea/
 /.*
+/my-nft/.env
+/my-nft/node_modules/

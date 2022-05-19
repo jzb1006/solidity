@@ -1,0 +1,14 @@
+{
+    "attributes": [
+       {
+        "trait_type": "Exterior",
+        "length": "Super high and slim"
+       },
+       {
+        "trait_type": "Function",
+        "length": "receive signal"
+       }
+    ],
+    "name": "Guangzhou Tower",
+    "image":"ipfs://QmTrLCPsEj4HvwVa7bTTmJgVBFvihHcscCLAmgPm6zQkia"
+}
